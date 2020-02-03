@@ -1,0 +1,41 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: Open Sans, arial;
+    box-sizing: border-box;
+}
+
+body {background-color: #ddb}
+
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+nav {
+    background-color: darkcyan;  
+}
+nav a {}
+
+a.menu {
+    display: inline-block;
+    width: 24%;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+   
+}
+
+a.menu:hover{
+    background-color: crimson;
+}
+
+.active {background-color: crimson}
