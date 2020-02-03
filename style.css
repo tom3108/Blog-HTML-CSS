@@ -39,3 +39,55 @@ a.menu:hover{
 }
 
 .active {background-color: crimson}
+
+article {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 60px 0 0;
+}
+
+article h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;   
+}
+
+img.left {
+    float: left;
+    margin: 10px 10px 10px 0;
+    width: 25%;
+    border-radius: 50%;
+}
+
+article p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 15px 0;
+    
+    
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
