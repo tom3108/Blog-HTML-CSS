@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pierwsza strona</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=latin-ext" rel="stylesheet"> 
+    <!-- pobieramy z google fonts -->   
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="wrapper">
+        <header>
+            <img src="programista.jpg" alt="progamista-header" />
+            <!-- alt = ta informacja wyświetli się, jeżeli jakimś cudem naszego obrazka nie uda się wyświetlić-->
+        </header>
+        
+        <nav> 
+            <a class="menu" href="index.html">O mnie</a><a class="menu" href="news.html">Aktualności</a><a class="menu" href="posty.html">Techniki motywacji</a><a class="menu active" href="register.html">Zgłoś się</a>
+        </nav>
+        
+        <div class="content">
+            <section>
+                <form action="#" method="post" autocomplete="off">
+                    
+                    <div class="row">
+                        <label for="name"> Imię i nazwisko</label>
+                        <input id="name" type="text" required autofocus="true">
+                        <!-- for - identyfikator pola tekstowego; type-typ pola tekstowego; required-dane pole tekstowe jest wymagane;
+                            autofocus-kursor automatycznie ustawi się w pierwszym polu formularza-->
+                    </div>
+                    
+                    <div class="row">
+                        <label for="email"> Adres email</label>
+                        <input id="email" type="email" required>
+                    </div>
+                    
+                    <div class="row">
+                        <label for="password"> Hasło</label>
+                        <input id="password" type="password" required>  
+                    </div>
+                    
+                    <div class="row">
+                        <label for="date"> Data urodzenia</label>
+                        <input id="date" type="date">
+                    </div>
+                    
+                    <div class="row">
+                        <label for="gender"> Płeć</label>
+                        <select id="gender"> 
+                                <option>Mężczyzna</option>
+                                <option>Kobieta</option>
+                        </select>
+                    </div>
+                    
+                     <div class="row">
+                        <label for="region"> Województwo</label>
+                        <input id="date" type="text" list="regions">
+                        <datalist id="regions">
+                            <option value="dolnośląskie"></option> 
+                            <option value="łódzkie"></option> 
+                            <option value="mazowowieckie"></option> 
+                        </datalist>
+                                 
+                    </div>
+                    
+                    <div class="row">
+                        <label for="code"> Kod pocztowy</label>
+                        <input id="code" type="text" pattern="^\d{2}-\d{3}$" placeholder="XX-XXX">
+                    </div>
+                    
+                    <div class="row">
+                        <label for="description"> O mnie</label>
+                        <textarea id="description" maxlength="500" rows="3"></textarea>
+                    </div>
+                    
+                    <div class="row">
+                        <label for="avatar"> Zdjęcie</label>
+                        <input id="avatar" type="file">  
+                    </div>
+                    
+                    <div class="row">
+                        <input id="rules" type="checkbox" required>
+                        <span>Akceptuję regulamin</span>
+                    </div>
+                    
+                    <div class="row1">
+                        <input type="submit">  
+                    </div>
+                
+                
+                </form>
+
+            </section>
+        </div>
+        <footer>  TomoCorp © </footer> 
+    </div>
+</body>
+    
+</html>

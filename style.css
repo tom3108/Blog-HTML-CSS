@@ -183,6 +183,62 @@ p.omnie{
     margin-right: 20px;
 }
 
+form {
+   padding: 15px;
+}
+
+.content {
+    
+    
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 30%;
+    text-align: end;
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+form input, form select, form textarea{
+    
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+    
+}
+
+.row {
+    margin:auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+#rules {
+    
+    position: relative;
+    left: 20%;
+    width: auto;
+}
+
+span {
+    
+    position: relative;
+    left: 20%;
+}
+
+.row1 {
+    margin: auto;
+    width: 15%;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+
+
 
 
 
