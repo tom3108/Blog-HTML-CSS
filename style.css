@@ -101,6 +101,20 @@ footer {
     
 }
 
+footer:active {
+    background-color: black;
+    color: crimson;
+}
+
+footer:after {
+    
+    content: "*"
+    color: white;
+    height: 40px;
+}
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 * {
@@ -125,7 +139,7 @@ h1 {
 
 .posty {
     
-    width: 650px;
+    width: 800px;
     margin: auto;
     padding: 20px 0 0 0;
 }
@@ -165,7 +179,6 @@ p {
     font-family: sans-serif;
     color: black;
     text-align: justify;
-    font-weight: 700;
    
 }
 
@@ -237,6 +250,43 @@ span {
     
 }
 
+
+p.easter {
+    
+    font-weight:700;
+    
+}
+
+input.row2 {
+    
+    background-color: aqua;
+}
+
+form input[type="submit"] {
+    
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    -webkit-transition:all 1s ease;
+    transition: all 1s ease;
+}
+
+form input[type="submit"]:hover{
+    background-color: crimson;
+    
+    
+}
+
+input:disabled{
+    background-color: red;
+    
+}
+
+input:not(disabled){
+    background-color:azure;
+    
+}
 
 
 
